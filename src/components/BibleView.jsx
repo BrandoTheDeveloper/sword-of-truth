@@ -35,7 +35,7 @@ import Job from "../data/Job";
 import Psalms from "../data/Psalms";
 import Proverbs from "../data/Proverbs";
 import Ecclesiastes from "../data/Ecclesiastes";
-import SongOfSolomon from "../data/SongOfSolomon";
+import SongOfSolomon from "../data/SongofSolomon";
 import Isaiah from "../data/Isaiah";
 import Jeremiah from "../data/Jeremiah";
 import Lamentations from "../data/Lamentations";
