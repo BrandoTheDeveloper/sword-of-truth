@@ -7,10 +7,18 @@ import Container from '@mui/material/Container';
 function App() {
   return (
     <Container maxWidth="md">
-      <Box mt={4} mb={2}>
-        <Typography variant="h3" component="h1" align="center" gutterBottom>
-          Stream Of Wisdom Bible
-        </Typography>
+      <Box
+        mt={4}
+        mb={2}
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <img
+          src="/icons/sow-bible-icon-circle-120x120.png" 
+          alt="Stream Of Wisdom Bible Logo"
+          style={{ maxWidth: '100%', height: 'auto' }}
+        />
       </Box>
       <Box mt={2}>
         <NavBar />
