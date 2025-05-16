@@ -201,15 +201,41 @@ export default function FixedBottomNavigation() {
       <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
         <BottomNavigation
           showLabels
+          sx={{ backgroundColor: '#1a1a1a', color: '#f9c662' }}
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Bible" icon={<MenuBookIcon />} />
-          <BottomNavigationAction label="Videos" icon={<OndemandVideoIcon />} />
-          <BottomNavigationAction label="Library" icon={<DescriptionIcon />} />
-          <BottomNavigationAction label="Audio Bible" icon={<AudiotrackIcon />} />
+          <BottomNavigationAction 
+            label="Bible" 
+            icon={<MenuBookIcon />} 
+            sx={{
+              color: value === 0 ? 'white' : '#f9c662', // White for selected, gold for unselected
+            }}
+          />
+          <BottomNavigationAction 
+            label="Videos" 
+            icon={<OndemandVideoIcon />}
+            sx={{
+              color: value === 1 ? 'white' : '#f9c662', // White for selected, gold for unselected
+            }}
+            />
+          <BottomNavigationAction 
+            label="Library" 
+            icon={<DescriptionIcon />} 
+            sx={{
+              color: value === 2 ? 'white' : '#f9c662', // White for selected, gold for unselected
+            }}
+
+          />
+          <BottomNavigationAction 
+            label="Audio Bible" 
+            icon={<AudiotrackIcon />} 
+            sx={{
+              color: value === 3 ? 'white' : '#f9c662', // White for selected, gold for unselected
+            }}
+          />
         </BottomNavigation>
       </Paper>
     </Box>

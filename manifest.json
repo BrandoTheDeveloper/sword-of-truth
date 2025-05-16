@@ -8,8 +8,8 @@
     "description": "A Bible app that provides a unique and engaging way to read and understand the scriptures.",
     "lang": "en-US",
     "dir": "ltr",
-    "background_color": "#ffffff",
-    "theme_color": "#2196f3",
+    "background_color": "#312e28",
+    "theme_color": "#f9c662",
     "icons": [
       {
         "src": "/icons/sow-bible-icon-192x192.png",
