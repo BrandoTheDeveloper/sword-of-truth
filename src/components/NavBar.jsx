@@ -212,6 +212,9 @@ export default function FixedBottomNavigation() {
             icon={<MenuBookIcon />} 
             sx={{
               color: value === 0 ? 'white' : '#f9c662', // White for selected, gold for unselected
+              '&.Mui-selected': {
+                color: 'white', // Ensure the text is white when selected
+              },
             }}
           />
           <BottomNavigationAction 
@@ -219,6 +222,9 @@ export default function FixedBottomNavigation() {
             icon={<OndemandVideoIcon />}
             sx={{
               color: value === 1 ? 'white' : '#f9c662', // White for selected, gold for unselected
+              '&.Mui-selected': {
+                color: 'white', // Ensure the text is white when selected
+              },
             }}
             />
           <BottomNavigationAction 
@@ -226,6 +232,9 @@ export default function FixedBottomNavigation() {
             icon={<DescriptionIcon />} 
             sx={{
               color: value === 2 ? 'white' : '#f9c662', // White for selected, gold for unselected
+              '&.Mui-selected': {
+                color: 'white', // Ensure the text is white when selected
+              },
             }}
 
           />
@@ -234,6 +243,9 @@ export default function FixedBottomNavigation() {
             icon={<AudiotrackIcon />} 
             sx={{
               color: value === 3 ? 'white' : '#f9c662', // White for selected, gold for unselected
+              '&.Mui-selected': {
+                color: 'white', // Ensure the text is white when selected
+              },
             }}
           />
         </BottomNavigation>
