@@ -270,7 +270,7 @@ function BibleView() {
 
             {currentChapterData.verses.map((verse) => (
                 <Typography key={verse.verse} variant="body1" paragraph>
-                    <strong>Verse {verse.verse}:</strong> {verse.text}
+                    <strong>{verse.verse}:</strong> {verse.text}
                 </Typography>
             ))}
 

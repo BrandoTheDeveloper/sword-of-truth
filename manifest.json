@@ -1,0 +1,25 @@
+{
+    "name": "Stream Of Wisdom Bible",
+    "short_name": "S.O.W. Bible",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "description": "A Bible app that provides a unique and engaging way to read and understand the scriptures.",
+    "lang": "en-US",
+    "dir": "ltr",
+    "background_color": "#ffffff",
+    "theme_color": "#2196f3",
+    "icons": [
+      {
+        "src": "/icons/sow-bible-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/sow-bible-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
